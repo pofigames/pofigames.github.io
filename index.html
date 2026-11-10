@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pofi Games</title>
+<meta name="description" content="Pofi Games makes cozy games, like the puzzle game Soul Bond.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+@font-face {
+  font-family: "Fredoka";
+  src: url("assets/fonts/Fredoka-Variable.ttf") format("truetype");
+  font-weight: 300 700;
+  font-display: swap;
+}
+:root {
+  --lavender: #8f86b1;
+  --lavender-light: #ece9f3;
+  --pink: #f2c7db;
+  --highlight: #ffeef8;
+  --plum: #502842;
+  --ink: #2e1a28;
+  --muted: #6b5566;
+  --card: #fffdfe;
+  --line: #e4dbe6;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--lavender-light);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+a { color: var(--plum); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: #8a3f6c; }
+h1, h2, h3, .brand-text { font-family: "Fredoka", -apple-system, "Segoe UI", sans-serif; color: var(--plum); }
+
+body { background: var(--lavender); min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+       padding: 48px 16px 24px; text-align: center; }
+.logo { width: min(320px, 80vw); height: auto; }
+.tagline { margin: 8px 0 32px; color: var(--highlight); font: 500 20px/1.4 "Fredoka", sans-serif; }
+.game { width: 100%; max-width: 440px; background: var(--card); border-radius: 24px; padding: 24px 24px 20px;
+        box-shadow: 0 8px 24px rgba(80, 40, 66, 0.18); }
+.game h2 { margin: 0 0 4px; font-size: 26px; font-weight: 600; }
+.game p { margin: 0 0 16px; color: var(--muted); }
+.links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.button { display: inline-block; padding: 8px 18px; border-radius: 999px; background: var(--pink);
+          color: var(--plum); text-decoration: none; font: 600 16px/1.4 "Fredoka", sans-serif; }
+.button:hover { background: #ebb5cd; color: var(--plum); }
+.contact { margin: 28px 0 0; color: var(--highlight); }
+.contact a { color: #fff; }
+footer { padding: 16px; text-align: center; color: var(--highlight); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<img class="logo" src="assets/pofi_games_logo.webp" width="320" height="242" alt="Pofi Games">
+<p class="tagline">Cozy games, made with care.</p>
+<section class="game">
+<h2>Soul Bond</h2>
+<p>A cozy puzzle game about Ada and her cat, Maysa.</p>
+<div class="links"><a class="button" href="soulbond/privacy/">Privacy Policy</a></div>
+</section>
+<p class="contact">Say hello: <a href="mailto:hellopofigames@gmail.com">hellopofigames@gmail.com</a></p>
+</main>
+<footer>&copy; 2026 Pofi Games</footer>
+</body>
+</html>
