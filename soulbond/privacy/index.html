@@ -73,7 +73,7 @@ footer { padding: 8px 16px 32px; text-align: center; color: var(--muted); font-s
 <h2 id="the-short-version">The short version</h2>
 <ul>
 <li>Soul Bond has no accounts. It never asks for your name, email address, contacts, photos or precise location.</li>
-<li>Your progress and settings are saved on your device. In the Steam version, Steam also keeps a copy of your save file in your Steam account (Steam Cloud), so your progress follows you to other computers.</li>
+<li>Your progress and settings are saved on your device. In the Steam version, Steam also keeps a copy of your save file in your Steam account (Steam Cloud), so your progress follows you to other computers, and the achievements you earn are recorded in your Steam account.</li>
 <li>To learn how players get on with the levels and to fix bugs, the game sends gameplay events (for example, "level 12 completed in 40 moves") and crash reports to Google Analytics. They are linked to a random ID, not to you. This happens only if you allow it when the game asks.</li>
 <li>On iPhone, iPad and Android, the game shows ads from Google AdMob: a rewarded ad you can choose to watch to get a hint, and now and then a short ad after you complete a level. Google collects some information about your device and the ads you see in order to show and measure ads. Hints are optional: every level can be solved without them. The desktop versions have no ads.</li>
 <li>We do not sell your information.</li>
@@ -86,14 +86,17 @@ footer { padding: 8px 16px 32px; text-align: center; color: var(--muted); font-s
 <p>The game saves the following on your device. It is not sent to us:</p>
 <ul>
 <li>your progress: the levels you have completed, the stars you earned on each, the level you were playing and the tutorials you have finished;</li>
+<li>the hints you have stored (on iPhone, iPad and Android);</li>
+<li>your achievement progress: which levels you have finished without a hint, your current run of three-star levels, which levels you raised to three stars and which hidden achievements you found. It is kept on every platform, so that achievements already earned unlock when you play the Steam version;</li>
 <li>your sound and music settings;</li>
 <li>your privacy choices;</li>
 <li>on desktop only: whether the game runs full screen or in a window (this choice stays on each computer and is not copied to Steam Cloud);</li>
 <li>a small file the game uses to report crashes and unfinished levels on the next launch: the level being played, the last few game actions (such as "move" or "undo") and how many times you have started a new game;</li>
 <li>on desktop only: the random analytics ID described in section 3.1 and any events still waiting to be sent.</li>
 </ul>
-<p>Choosing <strong>New Game</strong> erases your progress. Uninstalling the game deletes all of this information from your device.</p>
+<p>Choosing <strong>New Game</strong> erases your progress; the tutorials you have finished, your stored hints and your achievement progress stay. Uninstalling the game deletes all of this information from your device.</p>
 <p><strong>Steam Cloud (Steam version only).</strong> Steam keeps a copy of the save file that holds your progress, stars, sound and music settings and privacy choices in your Steam account, using Valve's Steam Cloud service, so you can continue on another computer. The full screen setting, the crash file, the analytics ID and waiting events are not copied. We do not receive this copy. Valve stores it under the <a href="https://store.steampowered.com/privacy_agreement/">Steam Privacy Policy</a>. Uninstalling the game does not delete the copy in Steam Cloud. You can turn Steam Cloud off for the game in its Properties in your Steam library, or for all games in Steam's settings.</p>
+<p><strong>Steam achievements (Steam version only).</strong> When you earn an achievement, the game tells Steam which one, through Valve's Steamworks service. Steam records it in your Steam account and shows it on your Steam profile, to the people your Steam privacy settings allow. We do not receive any personal information from this: Valve shows us only how many players have each achievement. Valve handles it under the <a href="https://store.steampowered.com/privacy_agreement/">Steam Privacy Policy</a>. Achievements stay in your Steam account after New Game or uninstalling the game. Who can see your game details, achievements included, is set in your Steam profile's privacy settings.</p>
 <h2 id="3-information-sent-from-your-device">3. Information sent from your device</h2>
 <h3 id="31-gameplay-analytics">3.1 Gameplay analytics</h3>
 <p>On iPhone, iPad and Android we use <strong>Google Analytics for Firebase</strong>. The desktop versions send the same events directly to <strong>Google Analytics</strong>. Analytics tells us which levels are too hard or too easy, where players get stuck, and whether the game runs well on different devices.</p>
@@ -110,7 +113,7 @@ footer { padding: 8px 16px 32px; text-align: center; color: var(--muted); font-s
 <h3 id="33-advertising-iphone-ipad-and-android-only">3.3 Advertising (iPhone, iPad and Android only)</h3>
 <p>The game shows two kinds of ads from <strong>Google AdMob</strong>:</p>
 <ul>
-<li><strong>Hint ads:</strong> When you ask for a hint, the game offers a rewarded video ad. You get the hint after watching the ad.</li>
+<li><strong>Hint ads:</strong> New players start with three hints. When none are left and you ask for a hint, the game offers a rewarded video ad; watching it gives you three hints.</li>
 <li><strong>Ads between levels:</strong> Now and then, after you complete a level and before the Level Complete screen, the game shows a full-screen ad (an "interstitial"). It shows at most one every few minutes of play, counting hint ads, never during a level, and never after the first four levels or the last one.</li>
 </ul>
 <p>To have ads ready, the game loads one of each kind in advance when it starts (after the consent step described in section 6) and again after each ad it shows.</p>
@@ -164,6 +167,7 @@ footer { padding: 8px 16px 32px; text-align: center; color: var(--muted); font-s
 <ul>
 <li><strong>On your device:</strong> until you choose New Game (progress only) or uninstall the game.</li>
 <li><strong>Steam Cloud (Steam version):</strong> Valve keeps the copy of your save file under its own policies. Choosing New Game also replaces the copy in Steam Cloud the next time the game syncs.</li>
+<li><strong>Steam achievements (Steam version):</strong> they stay in your Steam account under Valve's policies.</li>
 <li><strong>Analytics:</strong> Google Analytics deletes player-level and event-level data automatically after 14 months. Aggregated reports, which do not identify any player, may be kept longer.</li>
 <li><strong>Advertising:</strong> Google keeps the data it collects through AdMob under its own <a href="https://policies.google.com/technologies/retention">retention policies</a>.</li>
 <li><strong>Emails:</strong> as long as we need them to handle your request, and no longer than 2 years after our last exchange, unless the law requires us to keep them longer.</li>
